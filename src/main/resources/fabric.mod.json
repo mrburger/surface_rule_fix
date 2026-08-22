@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "surface_rule_fix",
+  "version": "${version}",
+  "name": "Omnidirectional Steep Surface Rule",
+  "description": "The Steep Surface Rule applies to all directions.",
+  "authors": [
+    "mrburgerUS"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/surface-rule-fix"
+  },
+  "license": "CC-BY-NC-SA 4.0",
+  "icon": "assets/surface_rule_fix/icon.png",
+  "environment": "*",
+  "accessWidener": "surface_rule_fix.accesswidener",
+  "entrypoints": {
+    "main": [
+      "mrburgerUS.surface_rule_fix.SurfaceRuleFixMod"
+    ]
+  },
+  "mixins": [
+    "surface_rule_fix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
